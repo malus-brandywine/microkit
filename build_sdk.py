@@ -187,19 +187,19 @@ SUPPORTED_BOARDS = (
             "KernelArmVtimerUpdateVOffset": False,
         },
     ),
-   BoardInfo(
+    BoardInfo(
         name="ultra96v2",
         arch=KernelArch.AARCH64,
         gcc_cpu="cortex-a53",
         loader_link_address=0x40000000,
-        kernel_options = {
+        kernel_options={
             "KernelPlatform": "zynqmp",
             "KernelARMPlatform": "ultra96v2",
             "KernelIsMCS": True,
             "KernelArmExportPCNTUser": True,
             "KernelArmHypervisorSupport": True,
             "KernelArmVtimerUpdateVOffset": False,
-            "KernelAllowSMCCalls":True,
+            "KernelAllowSMCCalls": True,
         },
     ),
     BoardInfo(
